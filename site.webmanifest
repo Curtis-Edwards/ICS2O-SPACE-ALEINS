@@ -2,8 +2,6 @@
         "name": "Curtis' App",
         "short_name": "Curtis' App",
         "description": "Github Page for Curtis', m ,m App",
-        "scope": "/ICS20-PWA-Template/",
-        "start_url": "/ICS20-PWA-Template/",
         "background_color": "#ffffff",
         "theme_color": "#ffffff",
         "display": "standalone", 
