@@ -11,7 +11,7 @@ const config = {
   height: 1080,
   physics: {
     default: 'arcade',
-    aecade: {
+    arcade: {
       debug: true
     }
   },
