@@ -10,7 +10,7 @@ class SplashScene extends Phaser.Scene {
   }
 
   init (data) {
-    this.camreas.main.setBackgroundColor('#ffffff')
+    this.camras.main.setBackgroundColor('#ffffff')
   }
 
   preload () {
