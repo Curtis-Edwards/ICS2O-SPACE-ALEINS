@@ -4,7 +4,12 @@
 // Created on: April 2022
 // This file contains the JS functions for index.html
 
-//* Game scene */
+import SplashScene from './splashScene.js'
+
+// our game scene
+const slpashScene = new SplashScene()
+
+//* Game Scene */
 const config = {
   type: Phaser.AUTO,
   width: 1920,
@@ -20,8 +25,15 @@ const config = {
   scale: {
     mode: Phaser.Scale.FIT,
     // we place it in the middle of the page
-    autoCenter: Phaser.Scale.CENTER_BOTH
+    aotuCenter: Phaser.Scale.CENTER_BOTH
   }
 }
 
 const game = new Phaser.Game(config)
+
+// load secnes 
+// NOTE: remeber any "key" is global and CAN NOT be reused
+game.secne.add('slpashScene', slpashScene)
+
+// start title
+game.scene.start('slpashScene')
