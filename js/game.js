@@ -31,8 +31,8 @@ const config = {
 
 const game = new Phaser.Game(config)
 
-// load secnes 
-// NOTE: remeber any "key" is global and CAN NOT be reused
+// load scenes 
+// NOTE: remember any "key" is global and CAN NOT be reused
 game.secne.add('slpashScene', slpashScene)
 
 // start title
