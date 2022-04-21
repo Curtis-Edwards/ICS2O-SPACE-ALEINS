@@ -2,7 +2,7 @@
 
 // Created by: Curtis Edwards
 // Created on: April 2022
-// This file contains the JS functions for index.html
+// This is the Phaser3 configuration file
 
 import SplashScene from './splashScene.js'
 
