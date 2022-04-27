@@ -5,7 +5,6 @@
 // This is the Phaser3 configuration file
 
 // scene import statements
-
 import SplashScene from "./js/splashScene"
 import TitleScene from "./js/titleScene"
 
@@ -13,7 +12,9 @@ import TitleScene from "./js/titleScene"
 const splashscene = new SplahScene()
 const titlescene = new TitleScene()
 
-//* Game scene*/
+/**
+ * Start Phaser Game
+ */
 const config = {
   type: Phaser.AUTO,
   width: 1920,
