@@ -4,53 +4,40 @@
 // Created on: April 2022
 // This is the Phaser3 configuration file
 
-/**
- * This class is the Splash Scene.
- */
- class SplashScene extends Phaser.Scene {
-  /**
-   * This method is the construtor.
-   */
-  constructor() {
-    super({ key: "splashScene" })
-  }
+// scene import statements
+import SplashScene form "./splashScene.js"
+import TitleScene form  "./titleScene.js"
 
-  /**
-   * Can be defined on your own Scenes.
-   * This method is called by the Scene Manager when the scene starts,
-   *   before preload() and create().
-   * @param {object} data - Any data passed via ScenePlugin.add() or ScenePlugin.start().
-   */
-  init(data) {
-    this.cameras.main.setBackgroundColor("000000")
-  }
+// create the new scene
+const splashscene = new SplahScene()
+const titlescene = new TitleScene()
 
-  /**
-   * Can be defined on your own Scenes.
-   * Use it to load assets.
-   */
-  preload() {
-    console.log("Splash Scene")
-  }
-
-  /**
-   * Can be defined on your own Scenes.
-   * Use it to create your game objects.
-   * @param {object} data - Any data passed via ScenePlugin.add() or ScenePlugin.start().
-   */
-  create(data) {
-    // pass
-  }
-
-  /**
-   * Should be overridden by your own Scenes.
-   * This method is called once per game step while the scene is running.
-   *  @param {number} time - The current time.
-   *  @param {number} delta - The delta time in ms since the last frame.
-   */
-  update(time, delta) {
-    this.scene.switch("titleScene")
-  }
+//* Game scene*/
+const config = {
+  type: Phaser.AUTO,
+  width: 1920,
+  height: 1080,
+  physics: {
+    default:'arcade',
+    arcade: {
+      debug: true
+    }
+  },
+  // set background color
+  backgroundColor: 0x5f6e7a,
+  scale: {
+    mode: Phaser.Scale.FIT,
+    // we place it in the middle of the page.
+    autoCenter: Phaser.Scale.CENTER_BOTH
+   }
 }
 
-export default SplashScene
+const game = new Phaser.Game(config)
+// console.log(game)
+
+// load scene 
+// NOTE: remeber any "key" is global and CAN NOT be reused
+game.scene.add('splashScene', splashScene)
+game.scene.add('titleScene', titleScene)
+
+// start title
