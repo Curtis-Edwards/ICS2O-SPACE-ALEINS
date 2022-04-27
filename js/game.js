@@ -9,7 +9,7 @@ import SplashScene from "./splashScene.js"
 import TitleScene from "./titleScene.js"
 
 // create the new scene
-const splashscene = new SplahScene()
+const splashscene = new SplashScene()
 const titlescene = new TitleScene()
 
 /**
