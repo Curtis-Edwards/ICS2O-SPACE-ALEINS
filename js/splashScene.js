@@ -24,7 +24,7 @@
    * @param {object} data - Any data passed via ScenePlugin.add() or ScenePlugin.start().
    */
   init(data) {
-    this.camras.main.setBackgroundColor("#ffffff")
+      this.cameras.main.setBackgroundColor("#ffffff")
   }
 
   /**
