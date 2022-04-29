@@ -7,12 +7,12 @@
 /**
  * This class is the Menu Scene.
  */
- class TitleScene extends Phaser.Scene {
+ class MenuScene extends Phaser.Scene {
   /**
    * This method is the construtor.
    */
   constructor() {
-    super({ key: "titleScene" })
+    super({ key: "menuScene" })
   }
 
   /**
