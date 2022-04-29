@@ -53,4 +53,4 @@
   }
 }
 
-export default TitleScene
+export default MenuScene
