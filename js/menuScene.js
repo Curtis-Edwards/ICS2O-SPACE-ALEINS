@@ -30,7 +30,7 @@
    * Use it to load assets.
    */
   preload() {
-    console.log("menu Scene")
+    console.log("Menu Scene")
   }
 
   /**
