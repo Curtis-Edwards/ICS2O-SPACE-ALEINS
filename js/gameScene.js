@@ -14,7 +14,7 @@ class GameScene extends Phaser.Scene {
   }
 
   preload() {
-    console.log("Game Scene")
+    console.log('Game Scene')
   }
 
   create(data) {
