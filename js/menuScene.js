@@ -28,7 +28,7 @@
     this.menuSceneBackgroundImage.y = 1080 / 2
 
     this.startButton = this.add.sprite(0, 0, 'menuSceneBackground')
-    this.startButton = setInteractive({useHandCursor: true})
+    this.startButton.setInteractive({useHandCursor: true})
     this.startButton.on('pointdown', () => this.clickButton())
   }
 
