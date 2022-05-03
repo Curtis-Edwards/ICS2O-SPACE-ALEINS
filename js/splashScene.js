@@ -1,7 +1,7 @@
 /* global Phaser */
 
 // Created by: Curtis Edwards
-// Created on: April 2022
+// Created on: May 2022
 // This is the Splash Scene
 
 /**
