@@ -18,8 +18,8 @@
 
   preload() {
     console.log("Menu Scene")
-      this.load.image('menuSceneBackground', 'assets/aliens_screen_image2.jpg')
-    this.load.image('startButton', 'assets/start.png')
+      this.load.image('menuSceneBackground', './assets/aliens_screen_image2.jpg')
+    this.load.image('startButton', './assets/start.png')
   }
 
   create(data) {
