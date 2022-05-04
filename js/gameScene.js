@@ -6,11 +6,11 @@
 
 class GameScene extends Phaser.Scene {
   constructor() {
-    super({ key: "gameScene" })
+    super({ key: 'gameScene' })
   }
 
   init(data) {
-    this.cameras.main.setBackgroundColor("#ffffff")
+    this.cameras.main.setBackgroundColor('#ffffff')
   }
 
   preload() {
