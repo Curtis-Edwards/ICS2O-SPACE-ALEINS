@@ -1,4 +1,4 @@
-# ICS2O-SPACE-ALlIENS
+# ICS2O-SPACE-ALIENS
 
 [![GitHub's Super Linter](https://github.com/Curtis-Edwards/ICS2O-SPACE-ALIENS/workflows/GitHub's%20Super%20Linter/badge.svg)](https://github.com/Curtis-Edwards/ICS2O-SPACE-ALIENS/actions)
 
