@@ -16,7 +16,6 @@ class GameScene extends Phaser.Scene {
     this.alienGroup.add(anAlien)
   }
 
-class GameScene extends Phaser.Scene {
   constructor() {
     super({ key: 'gameScene' })
 
